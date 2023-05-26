@@ -1,7 +1,8 @@
-
+```
 Pods :
 
 $ kubectl get pods 
+
 NAME                                     READY   STATUS             RESTARTS   AGE
 amir-node-redis                          1/1     Running            0          69m
 amir-node-redis-6d54874477-7psvg         1/1     Running            0          12s
@@ -12,6 +13,7 @@ amir-redis-77b64d4668-pdz2z              1/1     Running            0          7
 amir-redis-pod                           1/1     Running            0          104m
 
 $ kubectl logs amir-node-redis-6d54874477-7psvg
+
 redis connected to redis://amir-redis-service:6379
 listening at http://localhost:5000
 
@@ -27,3 +29,4 @@ amir-redis-service          LoadBalancer   10.3.15.159    141.95.163.35    6379:
 
 141.95.163.57:5000
 It is working, good job
+```
